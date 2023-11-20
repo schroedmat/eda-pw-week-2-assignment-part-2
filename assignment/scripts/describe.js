@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// we made a variable called name and set it to 'Dane'
+// we checked if the variable name was stricly equal to 'Mary', which it isn't
+// we console.log 'How do you do?'
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we made a variable called secret
+// we made a variable called code and set it to '123'
+// we check if code is strictly equal to '123' which it is, so the variable secret is assigned to 'super' and variable code is assigned code multiplied by 2.
+// we check if variable code is greater than 250, which is currently at a value of 246 so it is not great than 250. we console.log 'super'
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we create 3 variables and assign values; isStudent is a boolean with true, age is assigned 34, and zip is assigned 55407
+// we check if isStudent is strictly equal to true and if zip is greater than 80000. The zip > 80000 condition isn't met so it goes to the next condition
+// we check if isStudent is strictly equal to false or if age is less than 30. Neither of these conditions are met so it goes to the next condition
+// we check if isStudent is strictly equal to true, which it is.  we console.log 'Welcome to Prime!
 
 //CODE
 /*
@@ -129,6 +129,10 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+// colorOne is set to red and colorTwo is set to blue. 
+// should be let colorOne = 'blue' 
+// should be let colorTwo = 'red'
+
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -147,6 +151,9 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//The description calls for the and condition but an or condition is currently coded.  
+//Sholuld be if (temp > 39 && time >=4)
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -158,8 +165,15 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+
+// the description says it starts with two variables but minAge is a constant
+// shoulld be let minAge = 21;
+
 const minAge = 21;
 
+// the description says we check if age is greater than or equal to minAge but this is showing less than or equal to
+// should be if(minAge >= age) {
+  
 if(minAge <= age) {
   console.log('no entry');
 } else {
